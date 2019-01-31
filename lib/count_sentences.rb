@@ -19,7 +19,7 @@ class String
   end
 
   def count_sentences
-      apple = self.split(/[.!]/)
+      apple = self.gsub(" ","")split(/[.?!]/)
       apple.count
 
   end
